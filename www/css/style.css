@@ -1,0 +1,53 @@
+.bar.bar-stable {
+    background: #0699bb;
+    border: none;
+}
+.bar.bar-stable .title {
+    color: #fff;
+}
+.background-img {
+    background: url(../img/background-img.jpg);
+    background-size: cover;
+    /*background-position: 0 85px;*/
+}
+.button-orange {
+    background: #f17135;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid  #e74216;
+}
+.modal-div {
+    padding: 7em 2em;
+    text-align: center;
+}
+.modal-popup__header {
+    height: 4em;
+    background-color: #0699bb;
+}
+.modal-popup__header-container {
+    position: relative;
+    width: 100%;
+}
+.modal-popup__header-container > img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    top: 1em;
+    left: 50%;
+    margin-left: -2.5em;
+}
+.modal-popup__close-btn {
+    float: right;
+    background: #0c0;
+    color: #fff;
+    background-image: url(../img/cross.png) !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: 100% !important;
+    background-size: 100% !important;
+    width: 20px !important;
+    height: 7px !important;
+    background-position-y: 5px !important;
+}

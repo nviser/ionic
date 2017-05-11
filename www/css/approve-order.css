@@ -1,0 +1,80 @@
+.approve-order__header {
+    overflow: hidden;
+    padding-bottom: 4em;
+    color: #fff;
+    position: relative;
+}
+.clear-bottom {
+    background: #0699bb;
+    height: 6em;
+}
+.approve-order__header > .approve-order__text{
+    width: 33%;
+    float: left;
+    padding-top: 1em;
+    text-align: center;
+    position: relative;
+}
+.approve-order__img {
+    position: absolute;
+    bottom: 1.6em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5em;
+    height: 5em;
+}
+.approve-order__img.img-checkmark{
+    background-image: url(../img/checkmark.png);
+    left: 16.66%;
+    margin-left: -2.5em;
+}
+.approve-order__img.img-number2 {
+    background-image: url(../img/number2.png);
+    left: 49.6%;
+    margin-left: -2.5em;       
+}
+.approve-order__img.img-number3 {
+    background-image: url(../img/number3.png);
+    left: 83%;
+    margin-left: -2.5em;
+}
+
+.approve-order__content-address {
+    padding: 1em 3em;
+}
+.approve-order__content-data {
+    width: 90%;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid  #bbb;
+    padding: .5em 0;
+}
+.approve-order__content-data-item {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: .5em 0;
+}
+.approve-order__content-data-left {
+    width: 50%;
+    float: left;
+    color: #333;
+}
+.approve-order__content-data-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: #0699bb;
+}
+.approve-order__content-button {
+    text-align: center;
+}
+.approve-order__content-button-button {
+    position: static;
+    width: 90%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 3.5em;
+}
+

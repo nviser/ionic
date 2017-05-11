@@ -1,0 +1,35 @@
+<ion-modal-view class="modal-popup">
+  <ion-header-bar class="modal-popup__header">
+    <!--<h1 class="title">Login</h1>-->
+    <div class="modal-popup__header-container">
+      <div class="buttons">
+        <button class="button button-clear modal-popup__close-btn" ng-click="closeLogin()">x</button>
+      </div>
+      <img src="img/checkmark.png" alt="checkmark">
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <!--<form ng-submit="doLogin()">-->
+      <div class="list modal-div">
+        Ваш заказ согласован и отправлен
+в работу, о готовности вам прийдет уведомление.
+        <!--<label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="loginData.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="loginData.password">
+        </label>-->
+        <!--<label class="item">
+          <button class="button button-block button-positive" type="submit">Log in</button>
+        </label>-->
+      </div>
+    <!--</form>-->
+  </ion-content>
+  <ion-footer>
+  </ion-footer>
+      <button class="button button-orange" ng-click="closeLogin()">
+      OK
+    </button>
+</ion-modal-view>
